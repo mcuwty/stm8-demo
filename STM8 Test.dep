@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>2</fileVersion>
+    <fileChecksum>3450135675</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\OSAL\osal\osal.c</file>
+            <file>$PROJ_DIR$\OSAL\osal\osal_event.c</file>
+            <file>$PROJ_DIR$\OSAL\osal\osal_memory.c</file>
+            <file>$PROJ_DIR$\OSAL\osal\osal_msg.c</file>
+            <file>$PROJ_DIR$\OSAL\osal\osal_timer.c</file>
+            <file>$PROJ_DIR$\OSAL\hal\timer.c</file>
+            <file>$PROJ_DIR$\user\led.c</file>
+            <file>$PROJ_DIR$\user\main.c</file>
+            <file>$PROJ_DIR$\OSAL\application\osal_main.c</file>
+            <file>$PROJ_DIR$\OSAL\application\serial_task.c</file>
+            <file>$PROJ_DIR$\user\usart.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\STM8 Test.pbd</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$PROJ_DIR$\Debug\List\main.lst</file>
+            <file>$PROJ_DIR$\Debug\List\led.lst</file>
+            <file>$TOOLKIT_DIR$\inc\iostm8s003f3.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\osal_main.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\osal_main.pbi</file>
+            <file>$PROJ_DIR$\Debug\Exe\STM8 Test.hex</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\serial_task.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\Debug\List\STM8 Test.map</file>
+            <file>$PROJ_DIR$\Debug\List\osal_main.lst</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\serial_task.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\timer.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\timer.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\osal_event.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\osal_msg.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\osal_memory.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\osal.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\osal_timer.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\osal_event.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\osal.pbi</file>
+            <file>$PROJ_DIR$\Debug\List\osal_memory.lst</file>
+            <file>$PROJ_DIR$\Debug\List\serial_task.lst</file>
+            <file>$PROJ_DIR$\OSAL\include\type.h</file>
+            <file>$TOOLKIT_DIR$\lib\dlstm8smn.a</file>
+            <file>$TOOLKIT_DIR$\lib\dbgstm8smd.a</file>
+            <file>$PROJ_DIR$\Debug\List\osal_msg.lst</file>
+            <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+            <file>$TOOLKIT_DIR$\inc\io_macros.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\led.pbi</file>
+            <file>$PROJ_DIR$\Debug\List\osal_event.lst</file>
+            <file>$PROJ_DIR$\Debug\List\osal_timer.lst</file>
+            <file>$PROJ_DIR$\Debug\List\osal.lst</file>
+            <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+            <file>$PROJ_DIR$\Debug\List\timer.lst</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\led.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$TOOLKIT_DIR$\lib\dlstm8smn.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+            <file>$TOOLKIT_DIR$\config\lnkstm8s003f3.icf</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+            <file>$PROJ_DIR$\user\led.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\STM8 Test.out</file>
+            <file>$PROJ_DIR$\user\usart.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\osal_msg.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\usart.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\osal_timer.pbi</file>
+            <file>$PROJ_DIR$\Debug\List\usart.lst</file>
+            <file>$PROJ_DIR$\Debug\Obj\usart.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+            <file>$PROJ_DIR$\OSAL\include\timer.h</file>
+            <file>$PROJ_DIR$\OSAL\include\osal_event.h</file>
+            <file>$PROJ_DIR$\OSAL\include\osal.h</file>
+            <file>$PROJ_DIR$\OSAL\include\osal_memory.h</file>
+            <file>$PROJ_DIR$\OSAL\include\osal_timer.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$PROJ_DIR$\OSAL\include\osal_msg.h</file>
+            <file>$PROJ_DIR$\OSAL\include\application.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\usart.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\osal_memory.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\osal_msg.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\timer.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\osal_main.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\osal_timer.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\led.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\serial_task.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\osal_event.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\osal.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\osal_memory.pbi</file>
+        </outputs>
+        <file>
+            <name>$PROJ_DIR$\OSAL\osal\osal.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 36</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 48 33</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 84</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 16 39 44 69 68 70 71 67</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 69 39 16 44 68 71 67 70</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\OSAL\osal\osal_event.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 35</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 46 30</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 83</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 16 39 44 68 71 70 67</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 68 39 16 44 71 67 70</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\OSAL\osal\osal_memory.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 85</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 37 32</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 76</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 16 39 44 70</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 70 39 16 44</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\OSAL\osal\osal_msg.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 61</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 42 31</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 77</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 44 68 39 71 70 69 74 16 67 73</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 73 69 39 16 44 74 71 67 68 70</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\OSAL\osal\osal_timer.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 63</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 47 34</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 80</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 68 67 44 70 39 16 71</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 71 39 16 44 67 70 68</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\OSAL\hal\timer.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 28</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 50 29</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 78</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 16 39 44 67 71</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 67 39 16 44 71</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\user\led.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 45</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 15 52</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 81</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 16 44 58</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 58 16 44</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\user\main.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 57</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 14 13</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 66</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 27 44 49 25 51 20 60 11 54 16 58 53 39 22 43 55</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 16 44 60 53 25 51 20 54 27 43 55 22 49 11 39 58</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\OSAL\application\osal_main.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 18</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 24 17</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 79</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 70 39 71 69 68 73 16 44 74 67</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 74 69 39 16 44 71 67 68 70 73</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\OSAL\application\serial_task.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 21</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 38 26</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 82</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 71 39 68 11 69 73 16 51 54 49 72 53 70 44 67 20 27 25 74 58 22 43 55 60</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 74 69 39 16 44 71 67 68 70 73 72 25 51 20 54 27 43 55 22 11 53 49 58 60</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\user\usart.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 62</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 64 65</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 75</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 55 25 22 43 39 16 53 51 11 49 20 54 27 44 60</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 60 53 25 51 20 54 27 43 55 22 49 11 39 16 44</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 59 23</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\STM8 Test.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 23</file>
+                </tool>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 19</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 56 52 33 30 17 32 31 34 26 29 65 40 41</file>
+                </tool>
+            </inputs>
+        </file>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\OSAL\hal\timer.c</name>
+            <tool>C-STAT</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\user\main.c</name>
+            <tool>C-STAT</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\OSAL\application\osal_main.c</name>
+            <tool>C-STAT</tool>
+        </forcedrebuild>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs>
+            <file>$PROJ_DIR$\OSAL\osal\osal.c</file>
+            <file>$PROJ_DIR$\OSAL\osal\osal_event.c</file>
+            <file>$PROJ_DIR$\OSAL\osal\osal_memory.c</file>
+            <file>$PROJ_DIR$\OSAL\osal\osal_msg.c</file>
+            <file>$PROJ_DIR$\OSAL\osal\osal_timer.c</file>
+            <file>$PROJ_DIR$\OSAL\hal\timer.c</file>
+            <file>$PROJ_DIR$\user\led.c</file>
+            <file>$PROJ_DIR$\OSAL\application\osal_main.c</file>
+            <file>$PROJ_DIR$\OSAL\application\serial_task.c</file>
+            <file>$PROJ_DIR$\user\usart.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\OSAL\include\type.h</file>
+            <file>$TOOLKIT_DIR$\lib\dlstm8smn.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+            <file>$TOOLKIT_DIR$\inc\io_macros.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$TOOLKIT_DIR$\lib\dlstm8smn.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+            <file>$PROJ_DIR$\user\led.h</file>
+            <file>$PROJ_DIR$\user\usart.h</file>
+            <file>$TOOLKIT_DIR$\inc\iostm8l101f3.h</file>
+            <file>$PROJ_DIR$\Release\Obj\led.o</file>
+            <file>$PROJ_DIR$\Release\Exe\STM8 Test.out</file>
+            <file>$PROJ_DIR$\Release\Obj\osal_msg.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\osal_main.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\usart.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\osal.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\osal_event.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\serial_task.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\timer.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\led.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\osal_memory.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\osal_timer.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\osal_msg.o</file>
+            <file>$PROJ_DIR$\Release\Obj\usart.o</file>
+            <file>$PROJ_DIR$\Release\Obj\osal_memory.o</file>
+            <file>$PROJ_DIR$\Release\Obj\serial_task.o</file>
+            <file>$PROJ_DIR$\Release\Obj\osal_main.o</file>
+            <file>$PROJ_DIR$\Release\Obj\timer.o</file>
+            <file>$PROJ_DIR$\Release\Obj\osal.o</file>
+            <file>$PROJ_DIR$\Release\Obj\osal_event.o</file>
+            <file>$TOOLKIT_DIR$\config\lnkstm8.icf</file>
+            <file>$PROJ_DIR$\Release\Obj\osal_timer.o</file>
+            <file>$TOOLKIT_DIR$\lib\dbgstm8smn.a</file>
+            <file>$PROJ_DIR$\OSAL\include\timer.h</file>
+            <file>$PROJ_DIR$\OSAL\include\osal_event.h</file>
+            <file>$PROJ_DIR$\OSAL\include\osal.h</file>
+            <file>$PROJ_DIR$\OSAL\include\osal_memory.h</file>
+            <file>$PROJ_DIR$\OSAL\include\osal_timer.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$PROJ_DIR$\OSAL\include\osal_msg.h</file>
+            <file>$PROJ_DIR$\OSAL\include\application.h</file>
+        </outputs>
+        <file>
+            <name>$PROJ_DIR$\OSAL\osal\osal.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 32</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 45</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 26 15 18 52 51 53 54 50</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 52 15 26 18 51 54 50 53</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\OSAL\osal\osal_event.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 33</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 46</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 26 15 18 51 54 53 50</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 51 15 26 18 54 50 53</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\OSAL\osal\osal_memory.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 37</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 41</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 26 15 18 53</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 53 15 26 18</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\OSAL\osal\osal_msg.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 29</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 39</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 15 57 53 52 18 51 26 54 50 56</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 56 52 15 26 18 57 54 50 51 53</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\OSAL\osal\osal_timer.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 38</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 48</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 26 15 18 54 50 53 51</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 54 15 26 18 50 53 51</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\OSAL\hal\timer.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 35</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 44</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 26 15 18 50 54 24</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 50 15 26 18 54 24</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\user\led.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 36</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 27</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 26 18 24</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 24 26 18</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\OSAL\application\osal_main.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 30</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 43</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 15 52 26 18 57 54 51 53 56 50</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 57 52 15 26 18 54 50 51 53 56</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\OSAL\application\serial_task.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 34</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 42</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 15 14 51 57 13 50 10 52 56 26 18 54 12 17 23 22 20 55 21 53 11 19 24 25</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 57 52 15 26 18 54 50 51 53 56 55 13 20 11 22 14 17 23 12 10 21 19 24 25</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\user\usart.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 31</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 40</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 12 23 15 17 22 13 21 14 26 10 20 19 11 18 25</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 25 21 13 20 11 22 14 17 23 12 19 10 15 26 18</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 28</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Release\Exe\STM8 Test.out</name>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 47 27 45 46 43 41 39 48 42 44 40 16 49</file>
+                </tool>
+            </inputs>
+        </file>
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>
